@@ -1,0 +1,21 @@
+# Created by Octave 4.2.1, Tue Jun 12 20:52:39 2018 CST <beef@OAO>
+# name: X
+# type: matrix
+# rows: 4
+# columns: 2
+ 1 0.003010688
+ 1 0.003056702
+ 1 0.003123536
+ 1 0.003193358
+
+
+# name: y
+# type: matrix
+# rows: 4
+# columns: 1
+ -2.48490665
+ -2.85263143
+ -3.232121052
+ -3.592735594
+
+
