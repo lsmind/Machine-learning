@@ -1,14 +1,3 @@
-#!/usr/bin/octave-cli -qf
-
+function theta = normalEquation(X,y)
 format long;
-x = [1 0.003010688;
-1 0.003056702;
-1 0.003123536;
-1 0.003193358]
-
-y = [-2.48490665;
--2.85263143;
--3.232121052;
--3.592735594]
-
-t = pinv(x'*x)*x'*y
+theta = pinv(X'*X)*X'*y;
